@@ -1,0 +1,19 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Geneva",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "node-fetch": "^2.6.1",
+    "yargs": "^16.0.3"
+  }
+}
